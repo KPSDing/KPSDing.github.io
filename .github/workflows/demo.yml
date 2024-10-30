@@ -16,6 +16,8 @@ jobs:
         run: echo "Running tests..." 
 
       - uses: actions/checkout@v4
+
+      - run : npm install
       
       - uses: actions/setup-node@v3 
         with:
